@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head><title>Travel Destination</title>
+<meta name="viewport" content="width=device-width">
+<link rel="icon" href="favicon.ico" type="image/x-icon" sizes=16*16>
+<style type="text/css">
+body{
+    margin:0;
+    font-family:Tahoma, Geneva, sans-serif;
+    min-width: 1200px;
+}
+header{ 
+    text-align:center;
+    width:100%;
+}
+main{
+    text-align: center;
+    margin-bottom:40px;
+    color:black;
+}
+footer{
+    text-align:center;
+    width:100%;
+}
+.container{
+    margin:0 auto;
+    width:1100px;
+    overflow:auto;
+}
+nav {
+    font-weight:bold;
+    background-image:url("myImages/travel1.jpg");
+    background-repeat:repeat-x;
+    background-position:0 -60px;
+}
+nav ul, footer ul{
+    list-style-type:none;
+    margin:0;
+    padding:20px 0;
+}
+nav li, footer li{
+    display:inline;
+    
+    font-size:25px;
+    margin:20px;
+}
+nav a, footer a{
+    color:white;
+    text-decoration: none;
+}
+main h1{
+    text-decoration: none;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-weight:bold;
+    font-size:2em;
+    color:teal;
+    border-top:5px dashed gray; 
+}
+main p{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:1.5em;
+    font-weight:600;
+    text-align:justify;
+}
+main h2{
+    font-family:华文行楷;
+    font-size:1.8em;
+    font-weight:800;
+}
+
+.clearFloat{
+    clear:both;
+}
+#connectus{
+    width:40px;
+    height:25px;
+    background-color:rgb(128, 128, 128);
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+    position:fixed;
+    right:0;
+    bottom:5px;
+    font-weight:400;
+}
+#connectus a{
+    text-decoration:none;
+    color:white;
+}
+.mypic1{
+    height:300px;
+    width:300px;
+    float:left;
+    margin:15px;
+    padding:5px;
+    border:5px solid  rgba(54, 255, 47, 0.247);
+}
+#pic2{
+    position:relative;
+    left:5px;
+    bottom:10px;
+    
+}
+#pic3{
+    position:relative;
+    left:10px;
+}
+.mypic2{
+    height:300px;
+    width:300px;
+    float:left;
+    margin:15px;
+    padding:5px;
+    border:5px solid  rgba(54, 255, 47, 0.247);
+}
+#mess1{
+    border:5px groove rgba(54, 255, 47, 0.192);
+    width:300px;
+    height:auto;
+    padding:0 20px;
+    border-radius:15px;
+}
+#mess2{
+    position:relative;
+    top:50px;
+    border:5px groove rgba(54, 255, 47, 0.192);
+    width:300px;
+    height:auto;
+    padding:0 20px;
+    border-radius:15px;
+    left:50px;
+}
+#mess3{
+    border:5px groove rgba(54, 255, 47, 0.192);
+    width:300px;
+    height:auto;
+    padding:0 20px;
+    margin-top:40px;
+    margin-bottom:20px;
+    border-radius:15px;
+    position:relative;
+    left:150px;
+    
+}
+.floatleft{
+    margin-left: 10%;
+	float: left;
+}
+.floatright {
+    margin-right: 15%;
+    float: right;
+}
+main table{
+    border:5px ridge gray;
+    margin:0 auto;
+}
+main th,main td{
+    border: solid 1px gray;
+    text-align:center;
+    font-family:隶书;
+    font-size:1.5em;
+    font-weight:bold;
+    padding:5px;
+}
+footer{
+    font-weight:bold;
+    background-image:url("myImages/travel1.jpg");
+    background-repeat:repeat-x;
+    background-position:0 -60px;
+}
+</style>
+</head>
+<body>
+    <div id="connectus"><a href="connectus.html">客服</a></div>
+    <header>
+        <img src="myImages/travel2.jpg"  height=100px width=auto alt="image" >
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="destination.html">景点简介</a></li>
+                    <li><a href="bookhotel.html">预定酒店</a></li>
+                    <li><a href="bookticket.html">预定车票/飞机票</a></li>
+                    <li><a href="travelInsurance.html">旅行指南</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>想和我们一起旅行吗</h1>
+            <p style="text-indent:2em;">  我们自2012年以来，蝉联7年中国十佳旅行社，年接待游客约十万，年发旅行团五千余个！旅行，我们是专业的！</p>
+            <h1>旅行掠影</h1>
+            <h2>日本</h2>
+            <img src="myImages/japan1.jpg"  alt="image" class="mypic1" id="pic1"/>
+            <img src="myImages/japan2.jpg"  alt="image" class="mypic1" id="pic2"/>
+            <img src="myImages/japan3.jpg"  alt="image" class="mypic1" id="pic3"/>
+            <div class="clearFloat"></div>
+            <h2>马尔代夫</h2>
+            <img src="myImages/mald1.jpg"  alt="image" class="mypic1" id="pic1"/>
+            <img src="myImages/mald2.jpg"  alt="image" class="mypic1" id="pic1"/>
+            <img src="myImages/mald3.jpg"  alt="image" class="mypic1" id="pic1"/>
+            <div class="clearFloat"></div>
+            <h2>法国</h2>
+            <img src="myImages/france1.jpg"  alt="image" class="mypic1" id="pic1"/>
+            <img src="myImages/france2.jpg"  alt="image" class="mypic1" id="pic1"/>
+            <img src="myImages/france3.jpg"  alt="image" class="mypic1" id="pic1"/>
+            <div class="clearFloat"></div>
+            <h1>旅行留言</h1>
+            <div class="floatleft" id="mess1">
+            <p>生命不是一场赛跑,而是一次旅行,毕业留言生命旅行。比赛在乎终点,而旅行在乎沿途风景。</p>
+            </div>
+            <div class="floatright" id="mess2">
+            <p>只想进行一场漫无目的的旅行，在一个有花有海、安静缓慢的地方晒着太阳无所事事。</p>
+            </div>
+            <div class="floatleft" id="mess3">
+            <p>一根弦若是绷得太紧，总有一天会断裂，一颗心若是禁锢得太久，总有一天会失去平衡，我们需要放飞心灵，让心翱翔在自由的天空。</p>
+            </div>
+            <div class="clearFloat"></div>
+            <h1>即将开始的旅行</h1>
+            <table>
+                <tr>
+                <th id="firstColumn">目的地</th>
+                <th id="firstColumn">旅行时长</th>
+                <th id="secondColumn">旅行日期</th>
+                <th id="thirdColumn">价格</th>
+                </tr>
+                <tr>
+                <td>青岛</td>
+                <td>三天两夜</td>
+                <td>10.1-10.3</td>
+                <td>398</td>
+                </tr>
+                <tr>
+                <td>成都</td>
+                <td>五天四夜</td>
+                <td>10.1-10.5</td>
+                <td>1380</td>
+                </tr>
+                <tr>
+                <td>西藏</td>
+                <td>七天六夜</td>
+                <td>10.1-10.7</td>
+                <td>1680</td>
+                 </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="jionus.html">加入我们</a></li>
+                <li><a href="faq.html">常见问题</a></li>
+                <li><a href="policy.html">相关法律</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
